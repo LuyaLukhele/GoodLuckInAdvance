@@ -58,6 +58,25 @@
           </div>
         </nav>
       </div></header>
+      
+      <div class=".center">
+        <h2>Can you turn ON the electric bulb?</h2>
+        <p>Given a bulb with a power rating of 3 Watts and current of 333.33 mA calculate the needed
+          battery voltage 
+        </p>
+      
+        <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+      
+        <img id="myImage" src="items/circuits/circuitOff.gif" style="width:300px">
+      
+        <form onsubmit="confirmInput()" action="#">
+          Answer(Hint *P=VI): <input id="fname" type="text" size="20">
+          <input type="submit">
+        </form>
+      
+        <p id="result"></p>
+      </div>
+
     <style class="darkreader darkreader--sync" media="screen"></style>
     <style class="darkreader darkreader--sync" media="screen"></style>
     <style class="darkreader darkreader--sync" media="screen"></style>
@@ -83,31 +102,15 @@
         fname = document.forms[0].fname.value;
         if(fname==9){
           document.getElementById('myImage').src='items/circuits/circuitOn.gif'
-          document.getElementById("demo").innerHTML = "Correct!!!";
+          document.getElementById("result").innerHTML = "Correct!!!";
         }
         else{
           document.getElementById('myImage').src='items/circuits/circuitFails.gif'            
-          document.getElementById("demo").innerHTML = "Wrong. Please revise.";
+          document.getElementById("result").innerHTML = "Wrong. Please revise.";
         }
       }
       </script>
 
-<h2>Can you turn ON the electric bulb?</h2>
-
-<p>Given a bulb with a power rating of 3 Watts and current of 333.33 mA calculate the needed
-  battery voltage 
-</p>
-
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-
-<img id="myImage" src="/home/wtc/Documents/Lab/SmartLessons/items/circuits/circuitOff.gif" style="width:300px">
-
-<form onsubmit="confirmInput()" action="#">
-  Answer(Hint *P=VI): <input id="fname" type="text" size="20">
-  <input type="submit">
-</form>
-
-<p id="demo"></p>
     
     <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-9054"><div class="u-clearfix u-sheet u-sheet-1">
         <p class="u-small-text u-text u-text-variant u-text-1"> Copyright © 2022 GoodLuckInAdvance.</p>
