@@ -1,5 +1,5 @@
 const quizData = [{
-    question: 'The average of first 50 natural numbers is ………….',
+    question: 'The average of first 50 natural numbers?',
     a: '25.30',
     b: '25.5',
     c: '25.00',

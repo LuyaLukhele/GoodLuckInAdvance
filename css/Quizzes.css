@@ -1,5 +1,5 @@
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
+  min-height: 100px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
@@ -31,10 +31,10 @@ body{
     width: 600px;
     max-width: 100%;
 }
-
+/* 
 .quiz-header {
     padding: 4rem;
-}
+} */
 
 h2 {
     padding:  1rem;
